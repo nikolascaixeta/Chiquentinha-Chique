@@ -1,18 +1,16 @@
-
 body {
     font-family: mulish;
     margin: 0px;
     height: 100dvh;
 }
 
-header {
-    background-color: #F9A4BB;
-}
 
 nav {
     position: fixed;
     top: 0;
     width: 100%;
+    background-color: #F9A4BB;
+    z-index: 999999;
 }
 
 .Logo-nav {
@@ -78,7 +76,8 @@ nav {
         width: 15.625rem;
         height: 3.44rem;
         cursor: pointer;
-        transition: background-color 0.5s;
+        transition: 0.5s;
+        
         border: 0;
     }
 
@@ -177,7 +176,7 @@ nav {
     align-items: center;
     flex-direction: column;
     padding: 1.25rem;
-   
+
 }
 
 .parte1Coluna {
@@ -217,7 +216,7 @@ nav {
     img {
         width: 250px;
         height: 250px;
-        
+
 
     }
 }
@@ -235,30 +234,30 @@ nav {
     img {
         width: 3.125rem;
         height: 3.125rem;
-        
+
 
     }
 }
 
-footer{
+footer {
     background-color: #E71059;
     font-size: 18pt;
     margin-top: 15.625rem;
     margin-bottom: 1rem;
 }
 
-footer a{
+footer a {
     color: #FFFFFF;
 }
 
-.logo-footer-div{
+.logo-footer-div {
     display: flex;
     justify-content: center;
 }
 
-#logo-footer-image{
+#logo-footer-image {
     width: 13.75rem;
-    height:  13.75rem;
+    height: 13.75rem;
     display: flex;
     justify-content: center;
 }
@@ -272,7 +271,7 @@ footer a{
     background-color: #F9A4BB;
 }
 
-.linksfooter{
+.linksfooter {
     margin-top: 1rem;
     margin-bottom: 1rem;
     display: flex;
@@ -280,26 +279,26 @@ footer a{
     justify-content: space-evenly;
 }
 
-.linksfooter a{
+.linksfooter a {
     margin-left: 0.625rem;
 }
 
-.Instagram img{
+.Instagram img {
     width: 2.19rem;
     height: auto;
 }
 
-.Facebook img{
+.Facebook img {
     width: 2.19rem;
     height: auto;
 }
 
-.Gmail img{
+.Gmail img {
     width: 2.19rem;
     height: auto;
 }
 
-.feito-por{
+.feito-por {
     display: flex;
     justify-content: center;
     color: #FFFFFF;

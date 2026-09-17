@@ -240,3 +240,68 @@ nav {
 
     }
 }
+
+footer{
+    background-color: #E71059;
+    font-size: 18pt;
+    margin-top: 250px;
+    margin-bottom: 16px;
+}
+
+footer a{
+    color: #FFFFFF;
+}
+
+.logo-footer-div{
+    display: flex;
+    justify-content: center;
+}
+
+#logo-footer-image{
+    width: 220px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-footer-div::after {
+    content: ' ';
+    position: absolute;
+    bottom: -880px;
+    width: 90%;
+    height: 3px;
+    background-color: #F9A4BB;
+}
+
+.linksfooter{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.linksfooter a{
+    margin-left: 10px;
+}
+
+.Instagram img{
+    width: 35px;
+    height: auto;
+}
+
+.Facebook img{
+    width: 35px;
+    height: auto;
+}
+
+.Gmail img{
+    width: 35px;
+    height: auto;
+}
+
+.feito-por{
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}

@@ -147,7 +147,7 @@ nav {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 0.625rem;
+    margin: 2rem;
 }
 
 #tituloPecas {
@@ -175,7 +175,7 @@ nav {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 1.25rem;
+    padding: 0.5rem;
 
 }
 
@@ -201,26 +201,30 @@ nav {
 }
 
 .subtituloPecas {
-    font-size: 22pt;
+    font-size: 30pt;
 }
 
 .imagemColuna {
     background-color: #E71059;
-    width: 18.125rem;
-    height: 18.125rem;
+    width: 19rem;
+    height: 20rem;
     border-radius: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-
-    img {
-        width: 250px;
-        height: 250px;
-
-
-    }
+    justify-content: start;
+    align-items: start;  
 }
-
+#mulher-section2{
+    width: 16rem;
+    height: 18rem;
+}
+#homem-section2{
+    width: 22rem;
+    height:20rem;
+}
+#calca-section2{
+      width: 16rem;
+    height: 18rem;
+}
 .iconeColuna {
     background-color: #F9A4BB;
     border-radius: 100%;

@@ -1,3 +1,4 @@
+
 body {
     font-family: mulish;
     margin: 0px;
@@ -16,16 +17,16 @@ nav {
 
 .Logo-nav {
 
-    height: 100px;
+    height: 6.25rem;
 }
 
 .conteudo-nav {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    height: 100px;
+    height: 6.25rem;
     border-bottom: solid #FFFFFF 1px;
-    gap: 120px;
+    gap: 7.5rem;
 
 
 
@@ -43,7 +44,7 @@ nav {
 .conteudo-direita-nav {
     width: 50%;
     display: flex;
-    gap: 80px;
+    gap: 5rem;
 
     a {
         color: #FFFFFF;
@@ -67,15 +68,15 @@ nav {
 
 .filho-esquerda {
     width: 50%;
-    padding-top: 90px;
+    padding-top: 5.625rem;
 
     button {
         background-color: #E71059;
         color: #FFFFFF;
         font-size: 14pt;
         border-radius: 25px;
-        width: 250px;
-        height: 55px;
+        width: 15.625rem;
+        height: 3.44rem;
         cursor: pointer;
         transition: background-color 0.5s;
         border: 0;
@@ -90,7 +91,7 @@ nav {
 
 .filho-direita {
     width: 35%;
-    padding-top: 60px;
+    padding-top: 3.75rem;
     display: inline-block;
 
 }
@@ -102,11 +103,11 @@ nav {
 
 #texto-home {
     color: #FFFFFF;
-    word-spacing: 7px;
+    word-spacing: 0.44rem;
     font-size: 22pt;
     position: relative;
     display: inline-block;
-    padding-bottom: 10px;
+    padding-bottom: 0.625rem;
 
 }
 
@@ -114,9 +115,9 @@ nav {
     content: ' ';
     position: absolute;
     bottom: 0px;
-    right: 240px;
+    right: 15rem;
     width: 35%;
-    height: 3px;
+    height: 0.19rem;
     background-color: #E71059;
 
 }
@@ -129,15 +130,15 @@ nav {
 #titulo2-home {
     color: #E71059;
     font-size: 68pt;
-    line-height: 25px;
+    line-height: 1.56rem;
 }
 
 #botao-home {
-    padding-top: 50px;
+    padding-top: 3.25;
 }
 
 #imagem-section1 {
-    height: 890px;
+    height: 55.625rem;
     width: auto;
 
 }
@@ -147,7 +148,7 @@ nav {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 10px;
+    margin: 0.625rem;
 }
 
 #tituloPecas {
@@ -158,10 +159,10 @@ nav {
 #tituloPecas::after {
     content: ' ';
     position: absolute;
-    bottom: -180px;
-    right: 675px;
+    bottom: -11.25rem;
+    right: 42.2rem;
     width: 15%;
-    height: 3px;
+    height: 0.19rem;
     background-color: #E71059;
 }
 
@@ -175,15 +176,14 @@ nav {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
-    padding: 20px;
+    padding: 1.25rem;
    
 }
 
 .parte1Coluna {
     display: flex;
     flex-direction: column;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 
 }
 
@@ -198,25 +198,26 @@ nav {
 
 .txtPecas {
     text-align: center;
-    font-size: 18pt;
+    font-size: 22pt;
 }
 
 .subtituloPecas {
-    font-size: 18pt;
+    font-size: 22pt;
 }
 
 .imagemColuna {
     background-color: #E71059;
-    width: 290px;
-    height: 290px;
+    width: 18.125rem;
+    height: 18.125rem;
     border-radius: 100%;
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: center;
 
     img {
         width: 250px;
-        height: 300px;
+        height: 250px;
+        
 
     }
 }
@@ -224,19 +225,17 @@ nav {
 .iconeColuna {
     background-color: #F9A4BB;
     border-radius: 100%;
-    width: 70px;
-    height: 70px;
+    width: 4.475rem;
+    height: 4.475rem;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
 
     img {
-        width: 50px;
-        height: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        width: 3.125rem;
+        height: 3.125rem;
+        
 
     }
 }
@@ -244,8 +243,8 @@ nav {
 footer{
     background-color: #E71059;
     font-size: 18pt;
-    margin-top: 250px;
-    margin-bottom: 16px;
+    margin-top: 15.625rem;
+    margin-bottom: 1rem;
 }
 
 footer a{
@@ -258,8 +257,8 @@ footer a{
 }
 
 #logo-footer-image{
-    width: 220px;
-    height: 220px;
+    width: 13.75rem;
+    height:  13.75rem;
     display: flex;
     justify-content: center;
 }
@@ -267,36 +266,36 @@ footer a{
 .logo-footer-div::after {
     content: ' ';
     position: absolute;
-    bottom: -880px;
+    bottom: -87.5rem;
     width: 90%;
-    height: 3px;
+    height: 0.1875rem;
     background-color: #F9A4BB;
 }
 
 .linksfooter{
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
 .linksfooter a{
-    margin-left: 10px;
+    margin-left: 0.625rem;
 }
 
 .Instagram img{
-    width: 35px;
+    width: 2.19rem;
     height: auto;
 }
 
 .Facebook img{
-    width: 35px;
+    width: 2.19rem;
     height: auto;
 }
 
 .Gmail img{
-    width: 35px;
+    width: 2.19rem;
     height: auto;
 }
 

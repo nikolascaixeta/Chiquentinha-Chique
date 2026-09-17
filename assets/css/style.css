@@ -246,7 +246,7 @@ nav {
 footer {
     background-color: #E71059;
     font-size: 18pt;
-    margin-top: 15.625rem;
+    margin-top: 3rem;
     margin-bottom: 1rem;
 }
 
@@ -259,6 +259,11 @@ footer a {
     justify-content: center;
 }
 
+.div-central-logo-footer{
+    display: flex;
+    justify-content: center;
+}
+
 #logo-footer-image {
     width: 13.75rem;
     height: 13.75rem;
@@ -266,13 +271,11 @@ footer a {
     justify-content: center;
 }
 
-.logo-footer-div::after {
-    content: ' ';
-    position: absolute;
-    bottom: -87.5rem;
-    width: 90%;
-    height: 0.1875rem;
-    background-color: #F9A4BB;
+.div-vazia-clara{
+    border: 0.15rem solid #F9A4BB;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 2rem;
 }
 
 .linksfooter {
@@ -306,4 +309,27 @@ footer a {
     display: flex;
     justify-content: center;
     color: #FFFFFF;
+}
+
+.div-localidade{
+    display: flex;
+    flex-direction: column;
+}
+.div-titulo-localidade{
+    display: flex;
+    justify-content: center;
+}
+
+.div-titulo-localidade::after{
+    content: ' ';
+    position: relative;
+    bottom: 2rem;
+    right: 18rem;
+    width: 10%;
+    border-bottom: 0.19rem solid #E71059;
+}
+
+.titulo-localidade{
+    color: #E71059;
+    font-size: 55pt;
 }

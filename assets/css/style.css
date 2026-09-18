@@ -113,7 +113,7 @@ nav {
 #texto-home::after {
     content: ' ';
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
     right: 15rem;
     width: 35%;
     height: 0.19rem;
@@ -343,8 +343,8 @@ footer a {
     align-items: center;
     border-radius: 5rem;
     background-color: #E71059;
-    width: 850px;
-    height: 460px;
+    width: 53.125rem;
+    height: 28.75rem;
 }
 
 .img-local{

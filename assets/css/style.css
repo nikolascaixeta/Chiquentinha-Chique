@@ -158,7 +158,7 @@ nav {
 #tituloPecas::after {
     content: ' ';
     position: absolute;
-    bottom: -11.25rem;
+    bottom: -13rem;
     right: 42.2rem;
     width: 15%;
     height: 0.19rem;
@@ -311,25 +311,70 @@ footer a {
     color: #FFFFFF;
 }
 
-.div-localidade{
-    display: flex;
-    flex-direction: column;
-}
 .div-titulo-localidade{
     display: flex;
     justify-content: center;
 }
 
-.div-titulo-localidade::after{
-    content: ' ';
-    position: relative;
-    bottom: 2rem;
-    right: 18rem;
+.div-vazia-escura{
+    border: 0.15rem solid #E71059;
     width: 10%;
-    border-bottom: 0.19rem solid #E71059;
+    margin-left: 45%;
 }
+
 
 .titulo-localidade{
     color: #E71059;
     font-size: 55pt;
+    display: flex;
+    justify-content: center;
+}
+
+.local-exato{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+.div-img-local{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5rem;
+    background-color: #E71059;
+    width: 850px;
+    height: 460px;
+}
+
+.img-local{
+    width: 50rem;
+}
+
+.div-texto-local{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right:5rem;
+}
+
+.div-img-maps{
+    width: 5rem;
+    height: auto;
+}
+
+.img-maps{
+    width: 5rem;
+    height: auto;
+}
+
+.texto-local{
+    font-size: 22pt;
+    color: #F9A4BB;
+}
+
+.texto-local p{
+    display: flex;
+    justify-content: center;
 }
